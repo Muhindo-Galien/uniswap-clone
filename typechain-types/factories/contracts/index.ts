@@ -2,4 +2,7 @@
 /* tslint:disable */
 /* eslint-disable */
 export * as erc20LunaSol from "./ERC20Luna.sol";
+export * as erc20SoloSol from "./ERC20Solo.sol";
 export * as interfaces from "./Interfaces";
+export * as swapTokenSol from "./SwapToken.sol";
+export { SwapMultiHop__factory } from "./SwapMultiHop__factory";

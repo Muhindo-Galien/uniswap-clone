@@ -3,5 +3,10 @@
 /* eslint-disable */
 import type * as erc20LunaSol from "./ERC20Luna.sol";
 export type { erc20LunaSol };
+import type * as erc20SoloSol from "./ERC20Solo.sol";
+export type { erc20SoloSol };
 import type * as interfaces from "./Interfaces";
 export type { interfaces };
+import type * as swapTokenSol from "./SwapToken.sol";
+export type { swapTokenSol };
+export type { SwapMultiHop } from "./SwapMultiHop";
